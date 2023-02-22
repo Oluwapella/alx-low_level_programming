@@ -7,12 +7,8 @@
 */
 int _isalpha(int c)
 {
-int a = 'a';
-int Z = 'Z';
-
-if (c >= a)
-return (1);
-else if (c <= Z)
+if ((c >= 'a' && c <= 'z') ||
+	(c >= 'A' && c >= 'Z'))
 return (1);
 else
 return (0);
