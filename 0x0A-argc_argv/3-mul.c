@@ -8,11 +8,11 @@
  */
 int main(int argc, char *argv[])
 {
-	int a, b, sum;
+	int ia, b, sum;
 
 	if (argc <= 2)
 	{
-		printf("error\n");
+		printf("Error\n");
 		return (1);
 }
 	a = atoi(argv[1]);
