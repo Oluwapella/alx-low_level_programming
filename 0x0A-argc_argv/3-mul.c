@@ -8,10 +8,10 @@
  */
 int main(int argc, char *argv[])
 {
-	int a ,b ,sum;
+	int a, b, sum;
+
 	if (argc <= 2)
 	{
-	
 		printf("error\n");
 		return (1);
 }
